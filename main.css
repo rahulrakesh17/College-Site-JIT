@@ -1,0 +1,51 @@
+.bg-blue{
+    background-color: #169fcc;
+}
+.top-head{
+    padding: 1%;
+}
+.top-head div img{
+    gap: 10px;
+    width: 100px;
+    flex-shrink: 1;
+}
+.top-head div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-head div div{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Questrial', sans-serif;;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: #169fcc;
+    background-color: white;
+    height: 100%;
+    width: 100px;
+}
+@media (max-width:1400px){
+    .top-head-cont{
+        display: none;
+    }
+}
+.logo div div img{
+    width: 80vw;
+}
+
+.nav-item a{
+    font-family: "Inter";
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.dropdown-menu a{
+    font-family: "Inter";
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
